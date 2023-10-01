@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">FirstApp</string>
-
+    <string name="nombre">Name</string>
+    <string name="dataForm">Type Your Information</string>
+    <string name="age">Age</string>
+    <string name="colorHex">Color</string>
+    <string name="rememberMe">Remember Me</string>
+    <string name="sendInfo">Send Info</string>
     <string name="helloWorld">Hello World</string>
 </resources>

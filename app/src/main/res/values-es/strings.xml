@@ -3,4 +3,10 @@
 <resources>
     <string name="app_name">FirstApp</string>
 <string name="helloWorld">Hola Mundo</string>
+    <string name="dataForm">Ingresa tus Datos</string>
+    <string name="age">Edad</string>
+    <string name="colorHex">Color</string>
+    <string name="rememberMe">Recuerdáme</string>
+    <string name="sendInfo">Enviar Información</string>
+    <string name="nombre">Nombre</string>
 </resources>
