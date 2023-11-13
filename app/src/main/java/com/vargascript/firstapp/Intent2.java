@@ -40,6 +40,13 @@ public class Intent2 extends AppCompatActivity {
         ageId2.setText(ageText);
         colorId2.setText(i.getStringExtra("intentColor"));
         checkBoxId2.setChecked(i.getBooleanExtra("intentCheckBox", false));
-        boxColorId.setBackgroundColor(Color.parseColor(i.getStringExtra("intentColor")));
+
+        if (i.getStringExtra("intentColor").contains("#")) {
+            try {
+                boxColorId.setBackgroundColor(Color.parseColor(i.getStringExtra("intentColor")));
+            } catch (Exception e) {
+                Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        }
     }
 }
